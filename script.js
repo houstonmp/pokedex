@@ -43,9 +43,22 @@ function changePoke() {
 //Load Pokemon images
 function loadPokemon(firstPoke = 1, lastPoke = 905) {
     for (let i = firstPoke - 1; i < lastPoke; i++) {
-        let poke = document.createElement('img');
+        const pokemon = document.createElement('div');
+        const label = document.createElement('span');
+        const poke = document.createElement('img');
+
+        pokemon.classList = "pokemon";
+
+        //label
+        label.textContent = `#${i + 1}`;
+
+        //image
         poke.src = 'sprites/pokemon/' + (i + 1) + '.png';
-        poke.classList = 'pokemon';
-        container.appendChild(poke);
+
+        poke.classList = 'poke';
+
+        pokemon.appendChild(poke);
+        pokemon.appendChild(label);
+        container.appendChild(pokemon);
     }
 }
