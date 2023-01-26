@@ -1,0 +1,27 @@
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: #327ba8;
+}
+
+button {
+    background-color: #ADE25D;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 4.5px solid rgb(77, 149, 212);
+    /* display: block; */
+    margin: 30px auto;
+}
+
+button:hover {
+    border-bottom: none;
+    transform: translate(0, 4.5px);
+    /* margin-top: 34.5px; */
+}
+
+.pokemon {
+    margin: 14px;
+    border-radius: 50%;
+    border: 3px solid #32a852;
+}
