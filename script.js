@@ -54,7 +54,6 @@ function loadPokemon(firstPoke = 1, lastPoke = 905) {
 
         //image
         poke.src = 'sprites/pokemon/' + (i + 1) + '.png';
-
         poke.classList = 'poke';
 
         pokemon.appendChild(poke);

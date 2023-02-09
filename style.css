@@ -1,6 +1,11 @@
+body {
+    background-color: rgb(255, 253, 215);
+}
+
 h1 {
     font-family: 'Arial', sans-serif;
-    color: #327ba8;
+    color: #353535;
+
 }
 
 button {
@@ -29,6 +34,7 @@ button:hover {
 img {
     border-radius: 50%;
     border: 3px solid #32a852;
+    background-color: #aae4ba;
 }
 
 .pokemon {
