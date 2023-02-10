@@ -4,8 +4,16 @@ body {
 
 h1 {
     font-family: 'Arial', sans-serif;
-    color: #353535;
+    color: #FFDE00;
+    outline: 2px rgb(77, 149, 212);
 
+}
+
+nav {
+    background-color: #ff0000;
+    padding: 30px;
+    border-radius: 10px;
+    border: 5px solid #CC0000;
 }
 
 button {
