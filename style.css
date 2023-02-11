@@ -1,10 +1,12 @@
 body {
     background-color: rgb(255, 253, 215);
+
 }
 
 h1 {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Julee', cursive;
     color: #FFDE00;
+    font-size: 40px;
     outline: 2px rgb(77, 149, 212);
 
 }
@@ -17,12 +19,14 @@ nav {
 }
 
 button {
+    /* background-color: #FFDE00; */
     background-color: #ADE25D;
     font-size: 1rem;
     padding: 1rem;
     border-radius: 5px;
     border: none;
-    border-bottom: 4.5px solid rgb(77, 149, 212);
+    border-bottom: 4.5px solid #3B4CCA;
+    /* border-bottom: 4.5px solid rgb(77, 149, 212); */
     /* display: block; */
     margin: 30px auto;
 }
@@ -32,8 +36,12 @@ span {
     text-align: center;
 }
 
-
 button:hover {
+    cursor: pointer;
+}
+
+
+button:active {
     border-bottom: none;
     transform: translate(0, 4.5px);
     /* margin-top: 34.5px; */
@@ -43,6 +51,14 @@ img {
     border-radius: 50%;
     border: 3px solid #32a852;
     background-color: #aae4ba;
+}
+
+#circle {
+    border-radius: 50%;
+    background-color: #3B4CCA;
+    border: 4.5px solid #5bbfd6;
+    width: 40px;
+    height: 40px;
 }
 
 .pokemon {
