@@ -53,7 +53,7 @@ button {
 }
 
 span {
-    display: block;
+    display: inline-block;
     text-align: center;
     color: #ADE25D;
 }
@@ -101,4 +101,29 @@ img {
     margin: 10px;
     overflow-y: auto;
     height: 45vh;
+    box-sizing: border-box;
+    border: 50px solid rgb(199, 199, 199);
+    border-radius: 3px 8px 3px 50px;
+}
+
+.sm-circle {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
+.sm-circle:nth-child(1) {
+    background-color: #750000;
+    border: 3px solid #820202;
+}
+
+.sm-circle:nth-child(2) {
+    background-color: #32a852;
+    border: 3px solid #ADE25D;
+}
+
+.sm-circle:nth-child(3) {
+    background-color: #FFDE00;
+    border: 3px solid #ffeb6a;
 }
