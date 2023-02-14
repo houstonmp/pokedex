@@ -127,3 +127,7 @@ img {
     background-color: #FFDE00;
     border: 3px solid #ffeb6a;
 }
+
+div>span {
+    display: block;
+}
