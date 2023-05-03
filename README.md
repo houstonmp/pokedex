@@ -1,7 +1,7 @@
 
 # Pokedex
 
-A Pokedex inspired, HTML / CSS styling practice project using a cloned repository found [*here*](https://github.com/PokeAPI/sprites.git).
+A Pokedex inspired, HTML / CSS / JavaScript styling practice project using a cloned sprite repository found [*here*](https://github.com/PokeAPI/sprites.git).
 
 ## Description
 
@@ -13,7 +13,7 @@ This app was primarily made to practice cloning a repository and working with op
 - List and filter by region or print all pokemon.
 ## Demo - check it out [*here*](https://resonant-pony-4d0ebe.netlify.app/)
 
-<Insert gif and link to demo>
+<img src="/assets/pokedex-github.gif" alt="Pokedex Demo on Large Screens" width="80%" />
 
 
 ## Roadmap - (Goals and ToDos)
